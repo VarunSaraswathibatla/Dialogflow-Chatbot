@@ -1,15 +1,15 @@
 const dialogflow = require('@google-cloud/dialogflow');
 const uuid = require('uuid');
+const MongoClient = require("mongodb").MongoClient;
 
-
+var URL = "mongodb://localhost:27017/";
+var random = require("random-string");
 async function runSample(projectId = 'varun-assistant-el9c') {
  
   const sessionId = uuid.v4();
 
   
-  const sessionClient = new dialogflow.SessionsClient({
-    keyFilename:Mongod request manager;
-  });                    
+  const sessionClient = new dialogflow.SessionsClient({});                    
       
       
 
